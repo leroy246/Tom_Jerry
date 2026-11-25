@@ -1,17 +1,17 @@
 public class Souris extends Personnage {
-    private int nombreclé;
+    private int nombrekey;
 
-    public Souris(String p_nom, int p_pointsDeVie, int p_xPosition, int p_yPosition, int p_nombreclé) {
+    public Souris(String p_nom, int p_pointsDeVie, int p_xPosition, int p_yPosition, int p_nombrekey) {
         super(p_nom, p_pointsDeVie, p_xPosition, p_yPosition);
-        this.nombreclé = p_nombreclé;
+        this.nombrekey = p_nombrekey;
     }
 
-    public int getNombreclé() {
-        return nombreclé;
+    public int getNombrekey() {
+        return nombrekey;
     }
 
-    public void setNombreclé(int p_nombreclé) {
-        this.nombreclé = p_nombreclé;
+    public void setNombrekey(int p_nombrekey) {
+        this.nombrekey = p_nombrekey;
     }
 
 public void MouvementAvant() {
