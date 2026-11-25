@@ -11,7 +11,7 @@ public Personnage(String p_nom, int p_pointsDeVie, int p_xPosition, int p_yPosit
         this.yPosition = p_yPosition;
     }
 
-    public String getNom() {
+    public String getNom() {fjililr
         return Nom;
     }
 
