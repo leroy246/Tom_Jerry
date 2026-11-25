@@ -16,7 +16,7 @@ public Personnage(String p_nom, int p_pointsDeVie, int p_xPosition, int p_yPosit
     }
 
     public void setNom(String p_nom) {
-        Nom = p_nom; j
+        Nom = p_nom; 
     }
 
     public int getPointsDeVie() {
